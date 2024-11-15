@@ -1,0 +1,129 @@
+/* General styling */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f3f4f6;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    color: #333;
+    flex-direction: column;
+}
+
+.container {
+    width: 500px; /* Set the width of the block */
+    height: 600px; /* Set the height of the block */
+    background-color: white;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    overflow: hidden; /* To handle content that overflows */
+}
+
+/* Progress bar */
+#progress-container {
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+#progress-bar {
+    width: 100%;
+    height: 20px;
+    border-radius: 10px;
+    background-color: #e0e0e0;
+}
+
+#progress-bar::-webkit-progress-bar {
+    background-color: #f3f4f6;
+}
+
+#progress-bar::-webkit-progress-value {
+    background-color: #4caf50;
+    border-radius: 10px;
+}
+
+#progress-text {
+    font-size: 16px;
+    color: #333;
+    margin-top: 5px;
+}
+
+/* Question styling */
+h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+/* Options styling */
+.option-btn {
+    width: 100%;
+    padding: 12px;
+    margin: 10px 0;
+    background-color: #007bff;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+.option-btn:hover {
+    background-color: #0056b3;
+    transform: scale(1.05);
+}
+
+.option-btn:active {
+    background-color: #004085;
+}
+
+.option-btn:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+}
+
+/* Correct/Incorrect feedback */
+.correct {
+    color: green;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.wrong {
+    color: red;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+/* Next button */
+#next-btn {
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+    margin-top: 20px;
+}
+
+#next-btn:hover {
+    background-color: #218838;
+    transform: scale(1.05);
+}
+
+#next-btn:disabled {
+    background-color: #b0b0b0;
+    cursor: not-allowed;
+}
