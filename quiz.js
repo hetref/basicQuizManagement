@@ -1,4 +1,5 @@
 const questions = [
+    { question: "Which of the following is not a waterborne disease?", options: ["Jaundice", "Cholera", "Nirmal", "Amoebiasis"], correctAnswer: 3 },
     { question: "The harmful materials in the environment are called:", options: ["Harmtants", "Pollution", "Pollutants", "Polants"], correctAnswer: 2 },
     { question: "Which of the following is not a Natural pollution?", options: ["Natural pollutions", "Man-made pollutions", "Both a) and b)", "None of the above"], correctAnswer: 1 },
     { question: "Causes of land pollution are:", options: ["Industrialization", "Mining", "Agriculture", "All of the above"], correctAnswer: 3 },
