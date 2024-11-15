@@ -1,7 +1,7 @@
 const questions = [
     { question: "The harmful materials in the environment are called:", options: ["Harmtants", "Pollution", "Pollutants", "Polants"], correctAnswer: 2 },
     { question: "Which of the following is not a Natural pollution?", options: ["Natural pollutions", "Man-made pollutions", "Both a) and b)", "None of the above"], correctAnswer: 1 },
-    { question: "Causes of land pollution are:", options: ["Industrialization", "Mining", "Agriculture", "All of the above"], correctAnswer: 3 },
+    { question: "Causes of land pollution are:", options: ["Industrialization", "Mining", "Agriculture", "All of the above"], correctAnswer: 2 },
     { question: "The Negative Impact Of Land Pollution is:", options: ["Soil erosion", "Shifting of habitat", "Water pollution", "All of the above"], correctAnswer: 3 },
     { question: "Need of water treatment is:", options: ["To remove dissolved gases", "To remove dissolved oxygen", "To enhance odour", "To enhance colour"], correctAnswer: 0 },
     { question: "The object of coagulation is:", options: ["To remove suspended particles", "To remove colloidal particles", "To remove dissolved particles", "To remove bacteria"], correctAnswer: 1 },
