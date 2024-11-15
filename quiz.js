@@ -1,6 +1,6 @@
 const questions = [
     { question: "The harmful materials in the environment are called:", options: ["Harmtants", "Pollution", "Pollutants", "Polants"], correctAnswer: 2 },
-    { question: "Which of the following is not a Natural pollution?", options: ["Natural pollutions", "Man-made pollutions", "Both a) and b)", "None of the above"], correctAnswer: 2 },
+    { question: "Which of the following is not a Natural pollution?", options: ["Natural pollutions", "Man-made pollutions", "Both a) and b)", "None of the above"], correctAnswer: 1 },
     { question: "Causes of land pollution are:", options: ["Industrialization", "Mining", "Agriculture", "All of the above"], correctAnswer: 3 },
     { question: "The Negative Impact Of Land Pollution is:", options: ["Soil erosion", "Shifting of habitat", "Water pollution", "All of the above"], correctAnswer: 3 },
     { question: "Need of water treatment is:", options: ["To remove dissolved gases", "To remove dissolved oxygen", "To enhance odour", "To enhance colour"], correctAnswer: 0 },
@@ -8,7 +8,7 @@ const questions = [
     { question: "On earth, ________ is freshwater.", options: ["3%", "4%", "5%", "6%"], correctAnswer: 0 },
     { question: "Spring is a _________ source of water.", options: ["Surface", "Sub-surface", "Both a) and b)", "All of the above"], correctAnswer: 1 },
     { question: "Effects of water pollution on human beings are:", options: ["Typhoid", "HIV", "Dengue", "Plague"], correctAnswer: 0 },
-    { question: "The impact of wastewater on the environment is:", options: ["Noise pollution", "Nuisance", "Diseases", "All of the above"], correctAnswer: 1 },
+    { question: "The impact of wastewater on the environment is:", options: ["Noise pollution", "Nuisance", "Diseases", "All of the above"], correctAnswer: 2 },
     { question: "Which of the following is not a tertiary treatment of wastewater?", options: ["Filtration", "Removal of nutrients", "Chlorination", "Aeration"], correctAnswer: 3 },
     { question: "Which of the following is not a waterborne disease?", options: ["Jaundice", "Cholera", "Plague", "Amoebiasis"], correctAnswer: 2 },
     { question: "Which of the following is not a primary pollutant of air pollution?", options: ["Ash", "Pollen", "Smoke", "Smog"], correctAnswer: 3 },
@@ -20,7 +20,7 @@ const questions = [
     { question: "The permissible range of PM 10 for a residential area is:", options: ["60-100", "70-100", "80-100", "90-100"], correctAnswer: 0 },
     { question: "_______ is a process where gases, vapors, or liquids are concentrated on a solid surface.", options: ["Absorption", "Adsorption", "Combustion", "All of the above"], correctAnswer: 1 },
     { question: "The World Health Organization (WHO) defines noise above _________ (dB) as noise pollution.", options: ["45 decibels", "55 decibels", "65 decibels", "75 decibels"], correctAnswer: 2 },
-    { question: "Which of the following is not a physiological effect on human beings?", options: ["Rise in blood pressure", "Reduction in vision", "Heart pain", "Damage nerve system"], correctAnswer: 3 },
+    { question: "Which of the following is not a physiological effect on human beings?", options: ["Rise in blood pressure", "Reduction in vision", "Heart pain", "Damage to the nervous system"], correctAnswer: 3 },
     { question: "Artificial sources of noise pollution are:", options: ["Thunder", "Landslides", "Earthquake", "None of the above"], correctAnswer: 3 },
     { question: "Which of the following is not a solid waste?", options: ["Rubber", "Cloth", "Wastewater", "Paper"], correctAnswer: 2 },
     { question: "High-level radioactive waste can be managed in which of the following ways?", options: ["Open dumping", "Incineration", "Composting", "Deep burial"], correctAnswer: 3 },
@@ -30,7 +30,7 @@ const questions = [
     { question: "Which one of the following is not biodegradable?", options: ["Vegetable waste", "Fruit waste", "Leaves", "Aluminum foil"], correctAnswer: 3 },
     { question: "Which of the following is not a municipal solid waste?", options: ["Market waste", "Agriculture waste", "Domestic waste", "Commercial waste"], correctAnswer: 1 },
     { question: "Municipal solid waste includes:", options: ["Domestic waste", "Commercial waste", "Institutional waste", "All of the above"], correctAnswer: 3 },
-    { question: "The highest heating value is of:", options: ["Garbage", "Rubbish", "Hospital waste", "Industrial waste"], correctAnswer: 1 },
+    { question: "The highest heating value is of:", options: ["Garbage", "Rubbish", "Hospital waste", "Industrial waste"], correctAnswer: 0 },
     { question: "The unit of sound is:", options: ["Decibel", "Maribel", "Sensible", "Pedicel"], correctAnswer: 0 },
     { question: "Primary treatment of sewage includes:", options: ["Screening", "Grit removal", "Primary clarifier", "All of the above"], correctAnswer: 3 },
     { question: "Types of grit in sewage treatment include:", options: ["Sand", "Silt", "Egg shell", "All of the above"], correctAnswer: 3 },
@@ -57,7 +57,7 @@ const questions = [
     { question: "Supposed to be working not for 'profit' but for a 'cause(s)' is:", options: ["NGO", "CGO", "GOO", "MGO"], correctAnswer: 0 },
     { question: "The main components of a watershed programme include:", options: ["Water conservation", "Soil conservation", "Crop management", "All of the above"], correctAnswer: 3 },
     { question: "Both formal and non-formal environmental education must have _________ goals.", options: ["Different", "Common", "Two", "All of the above"], correctAnswer: 1 },
-    { question: "Narmada Bachao Andolan is initiated by:", options: ["Nana Patekar", "Amir Khan", "Medha Patkar", "Sardar Patel"], correctAnswer: 2 },
+    { question: "Narmada Bachao Andolan is initiated by:", options: ["Nana Patekar", "Amir Khan", "Medha Patkar", "Sardar Patel"], correctAnswer: 2 }
 ];
 
 let currentQuestionIndex = 0;
